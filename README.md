@@ -7,7 +7,13 @@ This project is a build project for JFR introduction Book.
 https://koduki.github.io/docs/book-introduction-of-jfr/site/
 
 
-## BUILD
+## Dev build
+
+```bash
+gitbook serve
+```
+
+## Build
 
 ```bash
 docker run -it -v `pwd`/docs/:/srv/gitbook fellah/gitbook gitbook build
