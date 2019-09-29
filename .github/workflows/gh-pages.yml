@@ -1,0 +1,19 @@
+name: GitBook site CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build in fellah/gitbook
+      run: |
+        docker run -v ${{ github.workspace }}:/srv/gitbook fellah/gitbook gitbook build
+    - name: Deploy
+      run: |
+        docker run -v ${{ github.workspace }}:/work -e GIT_ID=koduki -e SRC_DIR=_book -e DEPLOY_DIR=docs/book-introduction-of-jfr/site/ -e GITHUB_ACTOR=${GITHUB_ACTOR} -e PERSONAL_TOKEN=${{ secrets.PERSONAL_TOKEN }} koduki/gh-actions_github-pages 
