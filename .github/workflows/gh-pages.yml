@@ -13,7 +13,9 @@ jobs:
     - uses: actions/checkout@v1
     - name: Build in fellah/gitbook
       run: |
-        docker run -v ${{ github.workspace }}:/srv/gitbook fellah/gitbook gitbook build
+        docker run -v ${{ github.workspace }}/docs:/srv/gitbook fellah/gitbook gitbook build
+        ls -l ${{ github.workspace }}/docs
     - name: Deploy
       run: |
-        docker run -v ${{ github.workspace }}:/work -e GIT_ID=koduki -e SRC_DIR=_book -e DEPLOY_DIR=docs/book-introduction-of-jfr/site/ -e GITHUB_ACTOR=${GITHUB_ACTOR} -e PERSONAL_TOKEN=${{ secrets.PERSONAL_TOKEN }} koduki/gh-actions_github-pages 
+        ls -l ${{ github.workspace }}/docs
+        docker run -v ${{ github.workspace }}/docs:/work -e GIT_ID=koduki -e COMMIT_MSG="Published 'Introduction of JFR'" -e SRC_DIR=_book -e DEPLOY_DIR=docs/book-introduction-of-jfr/site/ -e GITHUB_ACTOR=${GITHUB_ACTOR} -e PERSONAL_TOKEN=${{ secrets.PERSONAL_TOKEN }} koduki/gh-actions_github-pages 
