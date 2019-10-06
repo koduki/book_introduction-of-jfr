@@ -2,13 +2,13 @@
 
 ## はじめに
 
-## 1章　JDK Flight Recoder とは何か
+## 1章　JDK Flight Recoderとは？
 
-- 1.1 JDK Flight Recorderとは？
+- 1.1 JDK Flight Recorder
 - 1.2 Javaにおけるパフォーマンス分析と障害診断
 - 1.3 JFR の歴史 - JRockitからOpenJDKまで
 - 1.4 JFRを取り巻くツール(jcmd, JFR tool, JDK Mission Control)
-- 1.5 JFRとJMCのインストール
+- 1.5 JFRとJMCのインストールと動作環境
 
 ## 2章　JDK Flight Recorderのアーキテクチャ
 
