@@ -6,7 +6,7 @@ JDK Flight Recoder(JFR)はJavaで利用できる**パフォーマンス分析(Pr
 
 もう少し、シンプルに言えばトラブルシュートの支援ツールです。JFRではCPUやメモリなどのリソースの使用状況やGCの状態、スレッドのロックやスタックトレースなど様々なメトリクスを分析することができます。
 
-![サンプルイメージ](../images/001.svg)
+![Sample Image](../images/001.svg)
 
 以前はOracle JDKの商用サポート(Java SE Advanced)またはWeblogic等の商用製品を利用しているカスタマー向けの機能でしたが、OpenJDK11にOracleより寄贈されたので現在は誰でも自由に使うことができます。太っ腹ですね！
 
