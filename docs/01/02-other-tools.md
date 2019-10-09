@@ -10,11 +10,12 @@ Javaにはパフォーマンスメトリクスを取得するための方法が�
 
 - JMX
 - ログ
-- javaagent
+- JPLIS(javaagent)
 
 ### JMX
 
 Java Management Extensions(JMX)はJavaのリソース監視および管理のためのプロトコルです。簡単にいえばJava版のSNMPです。
+JSR-174としてJava 1.5より取り込まれています。
 
 Managed Bean(MBean)を利用してCPUやメモリの情報を取得したり、特定のイベント(例えば強制GC)とかを実行することも可能です。
 
@@ -38,9 +39,9 @@ JavaではGCなどの詳細なログをJVMより取得することができま�
 
 ただ、JFRを使うならJFR側にスタックトレースが含まれているのでそちらで十分でしょう。
 
-### javaagent
+### JPLIS(javaagent)
 
-`javaagent`はJMVに指定するオプションで`java.lang.instrument`と言う、あまり聞き慣れないパッケージに連携するためのインターフェースです。
+Java Programming Language Instrumentation Services(JPLIS)は`java.lang.instrument`と言う、あまり聞き慣れないパッケージに連携するためのインターフェースです。`javaagent`をJMVオプションとして指定する事で利用します。
 
 これはJVMがクラスをロードするタイミングでエージェントがクラスの情報を書き換えるAPIとなります。これを使ってJavaのオブジェクト情報を取得したり、プロファイリング用のアスペクトを埋め込んでトレース情報を取得するなどの使い方があります。
 
