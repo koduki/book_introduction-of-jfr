@@ -18,6 +18,7 @@
 - [Production-Time Profiling and Diagnostics on the JVM](https://static.rainfocus.com/oracle/oow18/sess/1524413833476001nSDg/PF/ProductionTimeProfiling_DEV4507_1540434986395001v92K.pdf)
 - [Mission Possible - Near zero overhead profiling](https://www.jfokus.se/jfokus18/preso/Mission-Possible--Near-zero-overhead-profiling.pdf)
 - [JDK9 の JMC & JFR のプレビュー](http://otndnld.oracle.co.jp/ondemand/javaday2017/D1-D2_JavaDayTokyo2017)
+- [オラクル・コンサルが語る！Java Flight Recorder活用のワザ](https://www.oracle.com/webfolder/technetwork/jp/ondemand/ddd2014/B2-1.pdf)
 
 ## JFRオプション
 
