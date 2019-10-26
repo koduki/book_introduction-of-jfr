@@ -20,7 +20,7 @@ HotSopt JVMはJavaの開発元であるSunが開発を行なっており、当�
 こういったJRockitの評判の良い要素をHotSpotに取り込んで行こうというのがProject HotRockitです。
 
 **図: Project HotRockit**
-![HotRockit Project](../images/001-hotrockit.svg)
+![HotRockit Project](../images/01-03-hotrockit.svg)
 
 これらのJRockit由来の機能は徐々に取り込まれておりJDK8でPermGenを廃してMetaspaceに切り替えたのもその一環です。
 特に、JFRを含むツール群はJDK7u40とかなり早い時期から取り込まれWebLogic等と組み合わせて運用する事が出来ました。
@@ -48,6 +48,6 @@ JEP 328にてJRockit由来の物をそのまま使っていたAPI群が刷新さ
 JFRの変遷をまとめると以下のようになります。
 
 **図: JFRの歴史**
-![JFRの歴史](../images/001-history_of_jfr.svg)
+![JFRの歴史](../images/01-03-history_of_jfr.svg)
 
 また、2020年春にリリース予定のJDK14には**JFR Event Streaming(JEP349)**が取り込まれる予定です。これはJFRのログをモニタリング等に活用しやすくするもので、既存のエコシステムとの連携がますますしやすくなります。
