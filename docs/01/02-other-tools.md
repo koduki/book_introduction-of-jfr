@@ -53,7 +53,7 @@ Java Programming Language Instrumentation Services(JPLIS)は`java.lang.instrumen
 
 サードパーティのツールもありますが、Javaには分析や診断のためのツールがデフォルトで用意されています。
 
-### Java VisualVM
+### VisualVM
 
 Java Mission ControlがJDKに統合されるまでHotSpotの主力だったプロファイリングツールです。OSS版は下記で開発されています。
 
