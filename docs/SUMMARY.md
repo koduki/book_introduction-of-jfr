@@ -10,4 +10,6 @@
   * [1.3 JFRの歴史 - JRockitからOpenJDKまで](01/03-history_of_jfr.md)
 
 * 2章　JDK Flight Recorderのアーキテクチャ
-  * [2.1 JFR アーキテクチャ概要](02/01-jfr-architecture.md)
+  * [2.1 JFRのアーキテクチャ概要](02/01-jfr-architecture.md)
+  * 2.2 JFRとオーバーヘッド
+
