@@ -1,4 +1,4 @@
-# 3.1 JDK Flight Recorderの実行
+# 3.1 JDK Flight Recorderの記録
 
 ## JFRの取得
 
