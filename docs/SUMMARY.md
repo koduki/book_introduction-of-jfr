@@ -14,3 +14,6 @@
   * [2.1 JFRのアーキテクチャ概要](02/01-jfr-architecture.md)
   * 2.2 JFRとオーバーヘッド
 
+* 3章　JDK Flight Recorderの記録
+  * [3.1 JDK Flight Recorderの記録](03/01-recording-jfr.md)
+
