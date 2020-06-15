@@ -33,13 +33,14 @@
 - 5.x 巨大なJFRファイルの分割
 - 5.x リポジトリから毎時/日次のログを作る
 
-## 6章　JDK Flight Record API
-
-- 6.1 カスタムイベント
-- 6.2 JFRのコントロール
-- 6.3 JFR Consuming API
-- 6.4 カスタムイベントにるSQLのロギング
-- 6.x JFRとOpenTracingの連携
+## 6章 Flight Record API
+- [6.1 Flight Recorder APIとは？](06/01-what_is_JFR_api.md)
+- 6.2 カスタムイベント
+- 6.3 JFRのコントロール
+- 6.4 JFR Consuming API
+- 6.5 JFR Event Streaming API
+- 6.6 カスタムイベントにるSQLのロギング
+- 6.7 JFRとOpenTracingの連携
 
 ## 7章　モニタリングへの応用
 

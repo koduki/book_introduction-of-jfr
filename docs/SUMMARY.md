@@ -17,3 +17,5 @@
 * 3章　JDK Flight Recorderの記録
   * [3.1 JDK Flight Recorderの記録](03/01-recording-jfr.md)
 
+* 6章　Flight Record API
+  * [6.1 Flight Recorder APIとは？](06/01-what_is_JFR_api.md)
