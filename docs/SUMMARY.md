@@ -20,3 +20,4 @@
 * 6章　Flight Record API
   * [6.1 Flight Recorder APIとは？](06/01-what_is_JFR_api.md)
   * [6.2 カスタムイベント](06/02-custom_event.md)
+  * [6.3 カスタムイベントでマイクロベンチマークを作る](06/03-custom_event_sample01.md)
